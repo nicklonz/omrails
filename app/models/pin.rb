@@ -1,7 +1,8 @@
 class Pin < ActiveRecord::Base
   attr_accessible :description
-
-  validates :description, presence: true
+  attr_accessible :destroy
+  attr_accessible :show
+  attr_accessible :edit
 
   belongs_to :user
   validates :user_id, presence: true
