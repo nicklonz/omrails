@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0.rc2'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'devise'
+gem 'devise', '3.0.3'
 gem 'protected_attributes'
 gem 'simple_form', '3.0.0.rc'
 
