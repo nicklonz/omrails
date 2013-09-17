@@ -9,6 +9,7 @@ gem 'protected_attributes'
 gem 'simple_form', '3.0.0.rc'
 gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'aws-sdk'
+gem 'faker', '1.1.2'
 
 group :production do
     gem 'pg'
