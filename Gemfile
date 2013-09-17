@@ -7,7 +7,7 @@ gem 'turbolinks'
 gem 'devise', '3.0.3'
 gem 'protected_attributes'
 gem 'simple_form', '3.0.0.rc'
-gem "paperclip", "~> 3.0"
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'aws-sdk'
 
 group :production do
