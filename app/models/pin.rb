@@ -1,6 +1,8 @@
  class Pin < ActiveRecord::Base
   # attr_accessible :description, :image, :image_remote_url
 
+require 'open-uri'
+
   validates :description, presence: true
   validates :user_id, presence: true
     has_attached_file :image, styles: { medium: "320x240>"}
