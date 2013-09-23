@@ -39,3 +39,5 @@ end
 gem 'rails-observers'
 gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
+
+gem "coffee-script", "~> 2.2.0"
