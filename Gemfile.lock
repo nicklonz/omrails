@@ -31,10 +31,10 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.13)
-    aws-s3 (0.6.3)
-      builder
-      mime-types
-      xml-simple
+    aws-sdk (1.19.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4, < 1.6.0)
+      uuidtools (~> 2.1)
     bcrypt-ruby (3.1.2-x86-mingw32)
     bootstrap-sass (2.2.2.0)
       sass (~> 3.2)
@@ -76,6 +76,7 @@ GEM
     mime-types (1.25)
     minitest (4.7.5)
     multi_json (1.7.9)
+    nokogiri (1.5.10-x86-mingw32)
     orm_adapter (0.4.0)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
@@ -147,10 +148,10 @@ GEM
     uglifier (2.2.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    uuidtools (2.1.4)
     warden (1.2.3)
       rack (>= 1.0)
     will_paginate (3.0.3)
-    xml-simple (1.1.2)
 
 PLATFORMS
   x86-mingw32
@@ -158,7 +159,7 @@ PLATFORMS
 DEPENDENCIES
   actionpack-action_caching
   actionpack-page_caching
-  aws-s3
+  aws-sdk
   bootstrap-sass (~> 2.2.2.0)
   bootstrap-will_paginate (= 0.0.6)
   coffee-rails (~> 4.0.0)
