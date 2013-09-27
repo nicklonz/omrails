@@ -1,4 +1,6 @@
 Omrails::Application.routes.draw do
+  get 'contact' => 'pages#contact'
+
   get "users/show"
   resources :pins
 
