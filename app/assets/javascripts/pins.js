@@ -1,3 +1,5 @@
+$(document).ready(function() {
+
 jQuery(function() {
   $('#pins').imagesLoaded(function() {});
   return $('#pins').masonry({
@@ -16,3 +18,6 @@ if ($('.pagination').length) {
     return $(window).scroll();
   });
 }
+
+});
+
