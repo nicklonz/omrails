@@ -7,6 +7,7 @@ gem 'turbolinks'
 gem 'devise', '3.0.3'
 gem 'protected_attributes'
 gem 'simple_form', '3.0.0.rc'
+gem 'jquery-turbolinks'
 #gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 gem 'paperclip','~>3.4.2'
 gem 'aws-sdk'
@@ -14,9 +15,12 @@ gem 'aws-sdk'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
+gem 'masonry-rails', '~> 0.2.0'
+
 
 group :production do
     gem 'pg'
+  	gem 'rails_12factor'
 end
 
 group :development, :test do
