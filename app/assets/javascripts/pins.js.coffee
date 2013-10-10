@@ -1,4 +1,4 @@
-jQuery ->
+jQuery(document).ready ->
   $('#pins').imagesLoaded ->
     $('#pins').masonry itemSelector: ".box"
 
